@@ -167,7 +167,14 @@ $(document).ready(function() {
     window.copyAllCredentials = function() {
         const email = $('#userEmail').val();
         const password = $('#userPassword').val();
-        const credentials = `E-mail: ${email}\nSenha: ${password}`;
+        const credentials = `
+        ->{Acesso robô Bruxos Do Aviator}<-
+╭━━•𖧹꧁᭼⸼◍ཻꢀ᮪⸱ᨗᨗᨗ💰⸱ᨗᨗᨗꢀ᮪ཻ◍⸼᭼꧂𖧹•━━╮
+•📧 E-mail: ${email}
+•🗝️ Senha: ${password}
+•📲Site:https://bruxos-do-aviator.netlify.app/
+╰━━•𖧹꧁᭼⸼◍ཻꢀ᮪⸱ᨗᨗᨗ💰⸱ᨗᨗᨗꢀ᮪ཻ◍⸼᭼꧂𖧹•━━╯
+        `;
         
         try {
             navigator.clipboard.writeText(credentials).then(() => {
