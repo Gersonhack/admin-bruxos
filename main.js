@@ -93,17 +93,10 @@ $(document).ready(function() {
 
                                 <ul class="text-sm text-blue-700 space-y-1">
                                     <li class="flex items-center">
-                                        <i class="fas fa-check-circle text-green-500 mr-2 text-xs"></i>
+                                
                                         Admin Bruxos Do Aviator 
                                     </li>
-                                    <li class="flex items-center">
-                                        <i class="fas fa-check-circle text-green-500 mr-2 text-xs"></i>
-                            
-                                    </li>
-                                    <li class="flex items-center">
-                                        <i class="fas fa-check-circle text-green-500 mr-2 text-xs"></i>
-                            
-                                    </li>
+                                  
                                 </ul>
                             </div>
                         </div>
